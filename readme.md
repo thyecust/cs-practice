@@ -7,4 +7,6 @@ This project is set to practice Web and Git, share lecture slides and notes.
 ## Members
 
 * Tian, thy@mail.ecust.edu.cn
-* K, *please enter your e-mail and delete this sentense.*
+* K, 757528804@qq.com
+* What is this language?
+* Next one please enter your email here.
