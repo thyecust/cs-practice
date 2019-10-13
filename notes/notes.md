@@ -6,4 +6,4 @@ This folder contains notes about this course.
 
 Both *.pdf* , *.txt* and *.md* type are welcomed.
 
-You'd better not use other filetypr such as *.doc* . 
+You'd better not use other filetype such as *.doc* . 
