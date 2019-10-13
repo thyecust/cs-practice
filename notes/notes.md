@@ -4,6 +4,6 @@ This folder contains notes about this course.
 
 > eg: 2019-10-13-新版Github操作-tian.pdf
 
-Both *.pdf* , *.txt* and *.md* type are welcomed.
+*.pdf* , *.txt* and *.md* type are welcomed.
 
 You'd better not use other filetype such as *.doc* . 
