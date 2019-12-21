@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>华东理工大学教务管理系统</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="signin.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        function tt()
+            {
+                var user_email=document.getElementById("inputEmail").value;
+                var user_password=document.getElementById("inputPassword").value;
+                if(user_email=="12345678@mail.ecust.edu.cn"||user_password=="123")
+                    {  
+                        alert("Welcome to Ecust Web!!");
+                        window.location.href="C:/Users/24143/Desktop/proj-jwc/dashboard/dashboard.html";//请在此处填入后台链接
+                    }
+                else
+                    {alert("There may be something wrong with your email or password");} 
+            }
+    </script>
+    <form class="form-signin">
+        <h1 class="h3 mb-3 font-weight-normal">请登录，使用学生邮箱</h1>
+        <label for="inputEmail" class="sr-only">邮箱地址</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="邮箱地址" required autofocus>
+        <label for="inputPassword" class="sr-only">密码</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="密码" required>
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住登录状态
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="button" onclick=tt()>登录</button>
+        
+    </form>
+</body>
+
+</html>
