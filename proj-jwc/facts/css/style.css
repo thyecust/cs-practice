@@ -1,0 +1,107 @@
+/* css reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding:0; margin:0;}
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+a { color:#616161; text-decoration:none; }
+a:hover { color: ; }
+address, caption, cite, code, dfn, em, th, var { font-weight: normal; font-style: normal; }
+ol, ul { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+q:before, q:after { content:""; }
+/* css base */
+body { font-family:"微软雅黑"; font-size:12px; color:#000; line-height:1.8;}
+.left{ float:left;}
+.right{ float:right;}
+img{
+	max-width: 100%;
+}
+.clearfix:after{  content: "."; display: block;height: 0;clear: both; visibility: hidden;}
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+/*header*/
+.header{
+	padding: 22px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+.header .logo{
+	float: left;
+}
+.header .naver{
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+.header .naver ul li{
+	float: left;
+	margin: 0 12px;
+	padding: 0 20px;
+	font-size: 14px;
+}
+.header .naver ul li.act{
+	background: #d7c263;
+}
+.header .naver ul li.act a{
+	color: #FFFFFF;
+}
+.header .naver ul li a{
+	color: #6e6e6e;
+}
+.header .naver ul li:hover{
+	background: #d7c263;
+}
+.header .naver ul li:hover a{
+	color: #FFFFFF;
+}
+
+/*banner*/
+.banner .nav_li{
+	background: url(../img/pp_2.png) no-repeat center center;
+	min-width: 278px;
+	height: 38px;
+	bottom: -1px;
+	padding: 11px 0;
+	box-sizing: border-box;
+}
+.banner .nav_li span{
+	width: 16px;
+	height: 16px;
+	transform: scale(1);
+}
+.banner .nav_li span.swiper-pagination-bullet-active{
+	background: #dbc976;
+}
+.banner  .swiper-slide{
+	
+}
+.main{
+	text-align: center;
+	margin: 25px 0;
+}
+.main h3{
+	margin: 25px 0;
+	font-size: 26px;
+}
+.main p{
+	line-height: 30px;
+}
+.main dl{
+	margin: 40px 0;
+}
+.main dl dt{
+	font-size: 28px;
+}
+.main dl dd{
+	line-height: 30px;
+	padding: 10px 20%;
+}
+.footer{
+	height: 50px;
+	background: #d7c263;
+}
